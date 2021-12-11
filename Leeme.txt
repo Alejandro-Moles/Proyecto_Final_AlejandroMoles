@@ -1,0 +1,14 @@
+Aplicacion realizada por Alejandro Moles Hurtado.
+
+Al iniciar la aplicacion, tendra un login, el cual mostrar una animacio que ha sido creada por una liberia, si no se tiene ningun correo registrado, se tendra que ir a la pantalla de registrarse
+la cual se accede mediante el boton con el mismo nombre. Esta ventana tendra diferentes campos que se tendran que rellenar para poder registrarse. Una vez registrado los datos se almacenaran en 
+una base de dtaos local, cuya clave primaria sera el correo. Cuando se le de al boton de iniciar sesion comprobara si la contraseña que se ha introduciodo en su campo de contraseña es la asociada
+a el correo que se ha introduciodo en el campo de correo, de ser caso contrario mostrara toast diciendo que correo no resgistrado. Si es la asociada, se mostrara una ventana nuevacon una lista de 
+cartas que cojo direcctamente de la api. La lista contendrá una imagen de la carta, su titulo y la descripcion de la misma. Al pulsar sobre la imagen de la carta se abrira una nueva ventana
+con los datos de la carta en mayor tamaño. La aplicacion tambien tendra un menu, que estara representado con tres botones en la parte superior derecha, los cuales al darle se abrira un desplegable
+con las opciones de perfil, cerrar sesion y ajustes. En el perfil se mostraran los datos del usuario, como el nombre y el correo, mas una animacion. EL boton de cerrar sesion, te mandara a la 
+pantalla de iniciar sesion, y el de ajustes abrirara los settings. Estos ultimos tendrabn un icono de idiomas el caul si se tiene el movil en modo oscuro no se veran muy bien (no se como cambiar el
+fondo de los settings). Si se le pulsa en el icono, se te abrira unas opciones con los diferentes idiomas que tiene la aplicacion. Tendra 7 idiomas, teniendo por defecto el español. Cuando se cambie
+en los ajustes, automaticamente se cambiaran los datos que se reciben al idioma seleccionado. Para borra elementos de la lista solo se tendra que deslizar el item que se desea borrar hacia la
+derecha o izquierda, en ese momento se mostrara detras de ese item otra capa con el color rojo y un icono de borra o el texto, para que se sepa que haciendo eso el elemento se borrará de la 
+lista

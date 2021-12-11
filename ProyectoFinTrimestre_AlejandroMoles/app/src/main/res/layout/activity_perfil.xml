@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#534E4E"
+    android:backgroundTint="#534E4E"
+    tools:context=".Vistas.Perfil">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animacion_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="264dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/usuario"></com.airbnb.lottie.LottieAnimationView>
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="40dp"
+                android:text="@string/nombre"
+                android:textColor="#F46032"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/text_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="20sp"
+                android:text="@string/correo"
+                android:textColor="#F46032"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/correo_text"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

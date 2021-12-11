@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/fondo_eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CBFF1428">
+        
+        <ImageView
+            android:id="@+id/borrar_icono"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="Boton_Eliminar"
+            android:src="@drawable/icono_borrar">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text_Eliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/borrar_icono"
+            android:layout_toLeftOf="@id/borrar_icono"
+            android:fontFamily="@font/roboto_mono_thin"
+            android:text="ELIMINAR"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <RelativeLayout
+            android:id="@+id/rl_principal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#534E4E"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/imagen"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"></ImageView>
+
+            <LinearLayout
+                android:layout_width="198dp"
+                android:layout_height="161dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="-4dp"
+                android:layout_marginLeft="-4dp"
+                android:layout_toEndOf="@id/imagen"
+                android:layout_toRightOf="@id/imagen"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Titulo"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/descripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Descripcion..."
+                    android:textColor="@color/white"
+                    android:textSize="13dp"></TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="72dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginBottom="2dp"
+                android:background="#FFF"></View>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>
