@@ -8,7 +8,7 @@ cartas que cojo direcctamente de la api. La lista contendrá una imagen de la ca
 con los datos de la carta en mayor tamaño. La aplicacion tambien tendra un menu, que estara representado con tres botones en la parte superior derecha, los cuales al darle se abrira un desplegable
 con las opciones de perfil, cerrar sesion y ajustes. En el perfil se mostraran los datos del usuario, como el nombre y el correo, mas una animacion. EL boton de cerrar sesion, te mandara a la 
 pantalla de iniciar sesion, y el de ajustes abrirara los settings. Estos ultimos tendrabn un icono de idiomas el caul si se tiene el movil en modo oscuro no se veran muy bien (no se como cambiar el
-fondo de los settings). Si se le pulsa en el icono, se te abrira unas opciones con los diferentes idiomas que tiene la aplicacion. Tendra 7 idiomas, teniendo por defecto el español. Cuando se cambie
+fondo de los settings). Si se le pulsa en el icono, se te abrira unas opciones con los diferentes idiomas que tiene la aplicacion. Tendra 7 idiomas, teniendo por defecto el aleman. Cuando se cambie
 en los ajustes, automaticamente se cambiaran los datos que se reciben al idioma seleccionado. Para borra elementos de la lista solo se tendra que deslizar el item que se desea borrar hacia la
 derecha o izquierda, en ese momento se mostrara detras de ese item otra capa con el color rojo y un icono de borra o el texto, para que se sepa que haciendo eso el elemento se borrará de la 
 lista
